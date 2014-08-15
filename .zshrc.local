@@ -1,0 +1,5 @@
+# Local changes to .zshrc file
+
+export TERM=xterm-256color
+
+export PATH=~/bin:$PATH

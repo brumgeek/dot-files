@@ -1,0 +1,23 @@
+# zsh alias file
+
+#Vagrant
+alias vs="vagrant ssh"
+alias vu="vagrant up"
+alias vd="vagrant halt"
+alias vg="vagrant global-status"
+
+#pbcopy alias not needed on OSX
+# sudo apt-get install xclip
+alias pbcopy="xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
+
+#open file with program by just typing filename
+alias -s php=vim
+alias -s html=vim
+alias -s css=vim
+alias -s js=vim
+alias -s txt=vim
+alias -s pdf=xpdf
+
+# Include custom aliases for specific OS / Machine
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
