@@ -18,6 +18,17 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'ervandew/supertab'
 "Bundle 'scrooloose/syntastic'
+" vim-snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+
+" Optional:
+Bundle "honza/vim-snippets"
+
+"Tools
+Plugin 'mattn/emmet-vim'
+
 
 filetype plugin indent on
 "
@@ -127,3 +138,9 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
+
+" Nerdtree show hidden files
+let g:NERDTreeShowHidden=1
+
+"Visual to clipboard
+set clipboard=unnamedplus

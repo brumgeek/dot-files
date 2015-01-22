@@ -1,7 +1,9 @@
 # Local changes to .zshrc file
 
-export TERM=xterm-256color
+#export TERM=xterm-256color
 
 export PATH=~/bin:$PATH
+
 # EDITOR = vim
 export EDITOR=vim
+
