@@ -115,6 +115,9 @@ imap jj <esc>
 " Ctrl-ww to switch between NERDTree and panes
 map <C-n> :NERDTreeToggle<CR>
 
+" Nerdtree show hidden files
+let g:NERDTreeShowHidden=1
+
 " CtrlP to open CtrlP
 " Ctrl-T to open highlighted file in new tab
 
@@ -152,8 +155,6 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
-" Nerdtree show hidden files
-let g:NERDTreeShowHidden=1
 
 "Visual to clipboard
 set clipboard=unnamedplus
