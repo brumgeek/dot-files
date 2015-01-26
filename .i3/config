@@ -14,11 +14,14 @@ exec --no-startup-id test -f ~/.Xresources && xrdb -merge ~/.Xresources
 
 exec vmware-user
 
+# Hide Mouse Pointer
+exec --no-startup-id unclutter -root -visable
+
 # Dropbox
 #exec dropbox start
 
 # Load a Background Wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper/ex_machina_2015_movie-2560x1440.jpg
+exec --no-startup-id feh --bg-scale  ~/Pictures/Wallpaper/ex_machina_2015_movie-2560x1440.jpg
 
 # Wifi 
 # exec --no-startup-id nm-applet
