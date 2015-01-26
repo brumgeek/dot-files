@@ -17,7 +17,10 @@ alias -s html=vim
 alias -s css=vim
 alias -s js=vim
 alias -s txt=vim
-alias -s pdf=xpdf
+alias -s pdf=zathura
+alias -s png=feh
+alias -s jpg=feh
+alias -s jpeg=feh
 
 # Include custom aliases for specific OS / Machine
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
