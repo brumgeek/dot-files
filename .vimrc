@@ -158,3 +158,8 @@ set colorcolumn=85
 
 "Visual to clipboard
 set clipboard=unnamedplus
+
+"Spelling Langugue set to gb and spelling on for mails
+set spelllang=en_gb
+au BufRead,BufNewFile *mutt* set filetype=mail
+autocmd FileType mail set spell
