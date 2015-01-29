@@ -155,9 +155,17 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
-
-"Visual to clipboard
-set clipboard=unnamedplus
+if has("unix")
+  let s:uname = system("uname")
+  if s:uname == "Darwin\n"
+    " Do Mac stuff here
+  endif
+  if s:uname == "Linux\n"
+    " Do Linux stuff here
+    " Visual to clipboard
+    set clipboard=unnamedplus
+  endif
+endif
 
 "Spelling Langugue set to gb and spelling on for mails
 set spelllang=en_gb
